@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <title>Kitty Sun</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="../static/index/src/stylesheets/style.css">
+  <link rel="stylesheet" type="text/css" href="../static/index/src/stylesheets/index.css">
+  <link rel="stylesheet" href="../static/index/src/stylesheets/nivo-slider.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="../static/index/src/stylesheets/jquery.fullPage.css">
+<body>
+<div id="header" style="opacity: 0.3;"></div>
+<header>
+  <div id="logo">
+    <div class="logo_container">
+      <img src="../static/index/src/images/logo.png"/>
+    </div>
+    <div class="head_txt">
+      <p class="p1">resume</p>
+      <p class="p2">前端工程师</p>
+    </div>
+  </div>
+  <nav>
+    <ul>
+      <li><a href="">首页</a></li>
+    </ul>
+  </nav>
+</header>
+<div id="dowebok">
+
+<div class="section">
+  <div class="home" id="home">
+    <div id="container">
+      <img src="../static/index/src/images/k.png" width="50" height="50" alt="k">
+      <img src="../static/index/src/images/i.png" width="50" height="50" alt="i">
+      <img src="../static/index/src/images/t.png" width="50" height="50" alt="t">
+      <img src="../static/index/src/images/t.png" width="50" height="50" alt="t">
+      <img src="../static/index/src/images/y.png" width="50" height="50" alt="y">
+      <img src="../static/index/src/images/s.png" width="50" height="50" alt="S">
+      <img src="../static/index/src/images/u.png" width="50" height="50" alt="u">
+      <img src="../static/index/src/images/n.png" width="50" height="50" alt="n"></div>
+    <div id="home_content">
+      <div id="home_head">
+        <div id="home_head_content">
+          <img src="../static/index/src/images/photo2.png" id="home_photo1" alt="">
+          <img src="../static/index/src/images/photo1.png" id="home_photo2" alt="" style="opacity: 0;">
+        </div>
+      </div>
+      <div id="home_info">
+        <p id="home_info1">唯有跟自已比，方能体会到什么是进一寸有一寸的欢喜</p>
+        <div id="home_info_box" style="width: 800px;">
+          <p id="home_info2">孙荟(Kitty)</p>
+          <p id="home_info3">26岁</p>
+          <p id="home_info4">前端开发工程师</p>
+          <p id="home_info5">243250131@qq.com</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="section">
+  <div id="experience"></div> 
+</div>
+<div class="section">
+  <div id="skill"></div>
+</div>
+<div class="section">
+  <div id="me">
+    <div class="address">
+        <!-- <div class="map">
+            <div id="lbs-use" style="    height: 345px;"></div>
+        </div> -->
+    </div>
+  </div>
+</div>
+</div>
+</body>
+<script src="../sea-modules/sea.js"></script>
+<script type="text/javascript">
+  // seajs 的简单配置
+  seajs.config({
+    base: "../sea-modules/",
+    alias: {
+      "jquery": "jquery/jquery/1.10.1/jquery.js"
+    }
+  })
+  // 加载入口模块
+  seajs.use("../static/index/src/javascripts/main")
+</script>
+<!-- <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=Va5dxYz4Y8OUGx06b9VL6Sye"></script>
+<script type="text/javascript">
+    $(window).load(function() {
+        // 百度地图API功能
+        var map = new BMap.Map("lbs-use");
+        var point = new BMap.Point(116.331398,39.897445);
+        map.centerAndZoom(point,12);
+        // 创建地址解析器实例
+        var myGeo = new BMap.Geocoder();
+        // 将地址解析结果显示在地图上,并调整地图视野
+        myGeo.getPoint("浙江省金华市婺城区李渔路1118号", function(point){
+            if (point) {
+                map.centerAndZoom(point, 18);
+                map.addOverlay(new BMap.Marker(point));
+            }else{
+                alert("您选择地址没有解析到结果!");
+            }
+        }, "浙江省");
+    });
+    </script> -->
+</html>

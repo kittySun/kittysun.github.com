@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <title>Kitty Sun</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="static/index/src/stylesheets/style.css">
+  <style type="text/css">
+    header {
+      background:url(static/index/src/images/home.jpg) no-repeat center top;
+      background-size: 100% 100%;
+      width: 100%;
+    }
+    .container {
+      width: 500px;
+      height: 200px;
+      position: absolute;
+      top:50%;
+      margin-top:-100px;
+      left: 50%;
+      margin-left:-250px;
+    }
+    .container a {
+      display:inline-block;
+      width: 120px;
+      height: 140px;
+      border:1px solid #ccc;
+      border-radius:5px;
+      margin-right: 40px;
+      background-color: #999;
+      opacity: .8;
+      text-align: center;
+    }
+    .container i {
+      font-size: 40px;
+      color:#fff;
+      display: inline-block;
+      margin:30px 0 15px;
+      -webkit-transition: -moz-transform 0.5s;
+      transition: -moz-transform 0.5s;
+      -webkit-transition: -webkit-transform 0.5s;
+      transition: -webkit-transform 0.5s;
+      -webkit-transition: -o-transform 0.5s;
+      transition: -o-transform 0.5s;
+      -webkit-transition: color 0.5s;
+      transition: color 0.5s;
+    }
+    .container i:hover {
+      -moz-transform:scale(1.5,1.5);  
+      -webkit-transform:scale(1.5,1.5);  
+      -o-transform:scale(1.5,1.5);
+      color:#FFC7B7;
+    }
+    .container p {
+      text-align: center;
+      color:#000;
+    }
+  </style>
+</head>
+<body>
+<header>
+<div class="container">
+  <a href="app/resume.html">
+    <i class="iconfont">&#xe602;</i>
+    <p>resume</p>
+  </a>
+  <a href="https://github.com/kittySun" target="_blank">
+    <i class="iconfont">&#xe601;</i>
+    <p>github</p>
+  </a>
+  <a href="javascript:;" id="more">
+    <i class="iconfont">&#xe600;</i>
+    <p>more</p>
+  </a>
+</div>
+
+</header>
+<script src="sea-modules/jquery-1.10.2.min.js"></script>
+<script type="text/javascript">
+  $(function () {
+    var height = window.screen.height;
+    console.log(height);
+    $('header').css('height',document.documentElement .clientHeight);
+    $(document).on('click','#more',function(){
+      alert('正在建设中。。。');
+    });
+  })
+</script>
+</body>
+</html>

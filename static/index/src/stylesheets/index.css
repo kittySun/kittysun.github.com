@@ -207,3 +207,34 @@ h2 {
   text-transform: uppercase;
   font-size: 14px;
 }
+#home_content, #about_content, #skill_content, #exp_content, #demo_content, #contact_content {
+  margin: 0 auto;
+  width: 1000px;
+  height: auto;
+}
+#skill_list {
+  margin: 80px auto 20px;
+  width: 100%;
+  font-size: 16px;
+  height: 400px;
+}
+.tag-panel {
+  margin: 15px auto;
+  text-align: center;
+}
+.tag.expert {
+  opacity: 1;
+}
+.tag {
+  background-color: #3BA99C;
+  color: #F5F5F5;
+  border-radius: 3px;
+  display: inline-block;
+  padding: 2px 8px;
+  margin-right: 3px;
+  margin-bottom: 3px;
+  opacity: 0.5;
+}
+.tag.familiar {
+  opacity: 0.75;
+}

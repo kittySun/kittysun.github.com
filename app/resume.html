@@ -9,120 +9,209 @@
   <link rel="stylesheet" href="../static/index/src/stylesheets/nivo-slider.css" type="text/css" media="screen" />
   <link rel="stylesheet" href="../static/index/src/stylesheets/jquery.fullPage.css">
 <body>
-<div id="header" style="opacity: 0.3;"></div>
-<header>
-  <div id="logo">
-    <div class="logo_container">
-      <img src="../static/index/src/images/logo.png"/>
+  <div id="header" style="opacity: 0.3;"></div>
+  <header>
+    <div id="logo">
+      <div class="logo_container">
+        <img src="../static/index/src/images/logo.png"/>
+      </div>
+      <div class="head_txt">
+        <p class="p1">resume</p>
+        <p class="p2">前端工程师</p>
+      </div>
     </div>
-    <div class="head_txt">
-      <p class="p1">resume</p>
-      <p class="p2">前端工程师</p>
-    </div>
-  </div>
-  <nav>
-    <ul>
-      <li><a href="../index.html">首页</a></li>
-    </ul>
-  </nav>
-</header>
-<div id="dowebok">
+    <nav>
+      <ul>
+        <li>
+          <a href="../index.html">首页</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <div id="dowebok">
 
-<div class="section">
-  <div class="home" id="home">
-    <div id="container">
-      <img src="../static/index/src/images/k.png" width="50" height="50" alt="k">
-      <img src="../static/index/src/images/i.png" width="50" height="50" alt="i">
-      <img src="../static/index/src/images/t.png" width="50" height="50" alt="t">
-      <img src="../static/index/src/images/t.png" width="50" height="50" alt="t">
-      <img src="../static/index/src/images/y.png" width="50" height="50" alt="y">
-      <img src="../static/index/src/images/s.png" width="50" height="50" alt="S">
-      <img src="../static/index/src/images/u.png" width="50" height="50" alt="u">
-      <img src="../static/index/src/images/n.png" width="50" height="50" alt="n"></div>
-    <div id="home_content">
-      <div id="home_head">
-        <div id="home_head_content">
-          <img src="../static/index/src/images/photo2.png" id="home_photo1" alt="">
-          <img src="../static/index/src/images/photo1.png" id="home_photo2" alt="" style="opacity: 0;">
+    <div class="section">
+      <div class="home" id="home">
+        <div id="container">
+          <img src="../static/index/src/images/k.png" width="50" height="50" alt="k">
+          <img src="../static/index/src/images/i.png" width="50" height="50" alt="i">
+          <img src="../static/index/src/images/t.png" width="50" height="50" alt="t">
+          <img src="../static/index/src/images/t.png" width="50" height="50" alt="t">
+          <img src="../static/index/src/images/y.png" width="50" height="50" alt="y">
+          <img src="../static/index/src/images/s.png" width="50" height="50" alt="S">
+          <img src="../static/index/src/images/u.png" width="50" height="50" alt="u">
+          <img src="../static/index/src/images/n.png" width="50" height="50" alt="n"></div>
+        <div id="home_content">
+          <div id="home_head">
+            <div id="home_head_content">
+              <img src="../static/index/src/images/photo2.png" id="home_photo1" alt="">
+              <img src="../static/index/src/images/photo1.png" id="home_photo2" alt="" style="opacity: 0;"></div>
+          </div>
+          <div id="home_info">
+            <p id="home_info1">唯有跟自已比，方能体会到什么是进一寸有一寸的欢喜</p>
+            <div id="home_info_box" style="width: 800px;">
+              <p id="home_info2">孙荟(Kitty)</p>
+              <p id="home_info3">杭州</p>
+              <p id="home_info4">前端开发工程师</p>
+              <p id="home_info5">243250131@qq.com</p>
+            </div>
+          </div>
         </div>
       </div>
-      <div id="home_info">
-        <p id="home_info1">唯有跟自已比，方能体会到什么是进一寸有一寸的欢喜</p>
-        <div id="home_info_box" style="width: 800px;">
-          <p id="home_info2">孙荟(Kitty)</p>
-          <p id="home_info3">26岁</p>
-          <p id="home_info4">前端开发工程师</p>
-          <p id="home_info5">243250131@qq.com</p>
+    </div>
+    <div class="section">
+      <div id="experience">
+        <div class="title">
+          <h1>项目经历</h1>
+          <div class="title_en" style="width: 130px;">
+            <h2 style="display: block;">· Experience ·</h2>
+          </div>
+        </div>
+        <div id="exp_list_slider" style="width: 900px;">
+          <div id="exp_list_slider_content" class="exp_scale b_to_t">
+            <div id="exp_list_content" style="width: 2700px;">
+              <div class="exp_list">
+                <div class="exp_list_left">
+                  <div id="exp_list_left1">
+                    <dl>
+                      <dt>杭州阿吞网络科技有限公司</dt>
+                      <dd class="exp_list_time">2016年5月~至今</dd>
+                      <dd>前端开发</dd>
+                      <dd>吐司宝贝电商平台 <a href="https://www.tusibaby.com" target="_blank">www.tusibaby.com</a></dd>
+                      <dd>主要负责div+css进行页面实现、复杂的页面动画效果与前后端数据交互，订单匹配连线功能从canvas绘图到用Raphael替换绘制，从逻辑编写到样式处理遇到很多问题，也逐一解决。mustache.js渲染数据到页面，使用cookie缓存记录页面状态，滤镜灰度应用，表单元素校验、列表图片懒加载、条目分页等。</dd>
+                      <dd>同期工作之余开始，系统性的自学web前端各项技术 </dd>
+                    </dl>
+                  </div>
+                </div>
+              </div>
+              <div class="exp_list">
+                <div class="exp_list_left">
+                  <div id="exp_list_left2">
+                    <dl>
+                      <dt>杭州一聚会科技有限公司</dt>
+                      <dd class="exp_list_time">2015年11月~2016年5月</dd>
+                      <dd>前端开发</dd>
+                      <dd>1.负责公司项目管理后台开发</dd>
+                      <dd>主要分商家管理、玩家管理、设备管理、玩家APP应用管理、财务管理、用户管理、游戏管理等几大部分组成。使用bootstrap布局、mustache渲染数据，echarts.js图表数据处理显示，其他组件和插件以及定制技术来实现布局样式和功能，使页面响应效果更好，有更好的交互体验。</dd>
+                      <dd>2.浙江一聚会官网 <a href="http://www.party-1.com" target="_blank">http://www.party-1.com</a></dd>
+                      <dd>首页、注册页、登录页、个人中心与家长监护工程文档页面。使用DIV+CSS布局，并使用jquery与其它插件写出页面各种交互效果。</dd>
+                    </dl>
+                  </div>
+                </div>
+              </div>
+              <div class="exp_list">
+                <div class="exp_list_left">
+                  <div id="exp_list_left3">
+                    <dl>
+                      <dt>杭州一聚会科技有限公司</dt>
+                      <dd class="exp_list_time">2015年11月~2016年5月</dd>
+                      <dd>前端开发</dd>
+                      <dd>3.钻石商城</dd>
+                      <dd>扫描二维码登录，在此无链接进入，主要由首页、商品列表页、商品详情页、购物车页、确认页、购买成功页、领取页、个人中心页、订单页、联系我们页面等构成。该项目为在微信端运行的h5页面，部分页面使用flex box部局，使用zepto.js编写，使用aplus.js使页面自适应手机尺寸，兼容各版手机微信浏览器，加入购物车动画效果、css3翻牌动画效果、canvas绘制h5小游戏等。</dd>
+                    </dl>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="exp_list_to" style="display: block; opacity: 0.1;">
+              <div id="exp_list_toleft">
+                <img src="../static/index/src/images/exp_list_toleft.png"></div>
+              <div id="exp_list_toright">
+                <img src="../static/index/src/images/exp_list_toright.png"></div>
+            </div>
+          </div>
+          <div id="exp_timeline" class="exp_scale b_to_t">
+            <div>
+              <a href="#" title="2014年3月~2014年9月"></a>
+              <a href="#" title="2014年9月~2015年7月"></a>
+              <a href="#" title="2015年7月~现在"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section">
+      <div id="skill">
+        <div id="skill_content">
+          <div class="title">
+            <h1>我的技能</h1>
+            <div class="title_en" style="width: 130px;">
+              <h2 style="display: block;">· Skills ·</h2>
+            </div>
+          </div>
+          <div id="skill_list">
+            <div class="tag-panel">
+              <div class="tag expert">HTML</div>
+              <div class="tag expert">CSS</div>
+              <div class="tag familiar">LESS</div>
+              <div class="tag">SCSS</div>
+            </div>
+            <div class="tag-panel">
+              <div class="tag expert">JavaScript</div>
+              <div class="tag expert">jQuery</div>
+              <div class="tag expert">Bootstrap</div>
+              <div class="tag familiar">AJAX</div>
+              <div class="tag familiar">Zepto</div>
+            </div>
+            <div class="tag-panel">
+              <div class="tag familiar">Node.js</div>
+              <div class="tag familiar">HTTP</div>
+              <div class="tag">Vue.js</div>
+              <div class="tag">Sea.js</div>
+              <div class="tag">Angular.js</div>
+              <div class="tag">PHP</div>
+            </div>
+            <div class="tag-panel">
+              <div class="tag expert">Sublime Text3</div>
+              <div class="tag expert">WebStorm</div>
+              <div class="tag familiar">DreamWeaver</div>
+              <div class="tag familiar">Editplus</div>
+            </div>
+            <div class="tag-panel">
+              <div class="tag expert">Cygwin</div>
+              <div class="tag expert">GIT</div>
+              <div class="tag familiar">PS</div>
+              <div class="tag familiar">Axure</div>
+              <div class="tag">Eclipse</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section">
+      <div id="me">
+        <div class="title">
+          <h1>关于我</h1>
+          <div class="title_en" style="width: 130px;">
+            <h2 style="display: block;">· About me ·</h2>
+          </div>
+        </div>
+        <div id="about_list_content">
+          <div class="about_list" id="about_list1">
+            <div class="about_list_eg" id="about_en_edu"><i class="iconfont">&#xe606;</i></div>
+            <div class="about_list_cn" id="about_cn_edu">学历<p>本科</p></div>
+          </div>
+          <div class="about_list">
+            <div class="about_list_eg" id="about_en_age"><i class="iconfont" style="margin-left: 20px;">&#xe603;</i></div>
+            <div class="about_list_cn" id="about_cn_age">年龄<p>26岁</p></div>
+          </div>
+          <div class="about_list">
+            <div class="about_list_eg" id="about_en_loc"><i class="iconfont" style="margin-left: 20px;">&#xe605;</i></div>
+            <div class="about_list_cn" id="about_cn_loc">现居<p>杭州</p></div>
+          </div>
+          <div class="about_list">
+            <div class="about_list_eg" id="about_en_sta"><i class="iconfont" style="margin-left: 20px;">&#xe604;</i></div>
+            <div class="about_list_cn" id="about_cn_sta">状态<p>在职</p></div>
+          </div>
+        </div>
+        <div class="describe">
+          <div class="ta" style="outline: rgba(255, 255, 0, 0.7) solid 1px;">
+            <textarea spellcheck="false" class="textarea" style="opacity: 1;"></textarea>
+          </div>
         </div>
       </div>
     </div>
   </div>
-</div>
-<div class="section">
-  <div id="experience">
-    <div class="title">
-      <h1>项目经历</h1><div class="title_en" style="width: 130px;"><h2 style="display: block;">· Experience ·</h2></div>
-    </div>
-    
-  </div> 
-</div>
-<div class="section">
-  <div id="skill">
-    <div id="skill_content">
-      <div class="title">
-        <h1>我的技能</h1><div class="title_en" style="width: 130px;"><h2 style="display: block;">· Skills ·</h2></div>
-      </div>
-      <div id="skill_list">
-        <div class="tag-panel">
-          <div class="tag expert">HTML</div>
-          <div class="tag expert">CSS</div>
-          <div class="tag familiar">LESS</div>
-          <div class="tag">SCSS</div>
-        </div>
-        <div class="tag-panel">
-          <div class="tag expert">JavaScript</div>
-          <div class="tag expert">jQuery</div>
-          <div class="tag expert">Bootstrap</div>
-          <div class="tag familiar">AJAX</div>
-          <div class="tag familiar">Zepto</div>
-        </div>
-        <div class="tag-panel">
-          <div class="tag familiar">Node.js</div>
-          <div class="tag familiar">HTTP</div>
-          <div class="tag">Vue.js</div>
-          <div class="tag">Sea.js</div>
-          <div class="tag">PHP</div>
-        </div>
-        <div class="tag-panel">
-          <div class="tag expert">Sublime Text3</div>
-          <div class="tag expert">WebStorm</div>
-          <div class="tag familiar">DreamWeaver</div>
-          <div class="tag familiar">Editplus</div>
-        </div>
-        <div class="tag-panel">
-          <div class="tag expert">Cygwin</div>
-          <div class="tag expert">GIT</div>
-          <div class="tag familiar">PS</div>
-          <div class="tag familiar">Axure</div>
-          <div class="tag">Eclipse</div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="section">
-  <div id="me">
-    <div class="title">
-      <h1>关于我</h1><div class="title_en" style="width: 130px;"><h2 style="display: block;">· About me ·</h2></div>
-    </div>
-    <div class="address">
-        <!-- <div class="map">
-            <div id="lbs-use" style="    height: 345px;"></div>
-        </div> -->
-    </div>
-  </div>
-</div>
-</div>
 </body>
 <script src="../sea-modules/sea.js"></script>
 <script type="text/javascript">
@@ -136,24 +225,4 @@
   // 加载入口模块
   seajs.use("../static/index/src/javascripts/main")
 </script>
-<!-- <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=Va5dxYz4Y8OUGx06b9VL6Sye"></script>
-<script type="text/javascript">
-    $(window).load(function() {
-        // 百度地图API功能
-        var map = new BMap.Map("lbs-use");
-        var point = new BMap.Point(116.331398,39.897445);
-        map.centerAndZoom(point,12);
-        // 创建地址解析器实例
-        var myGeo = new BMap.Geocoder();
-        // 将地址解析结果显示在地图上,并调整地图视野
-        myGeo.getPoint("浙江省金华市婺城区李渔路1118号", function(point){
-            if (point) {
-                map.centerAndZoom(point, 18);
-                map.addOverlay(new BMap.Marker(point));
-            }else{
-                alert("您选择地址没有解析到结果!");
-            }
-        }, "浙江省");
-    });
-    </script> -->
 </html>
